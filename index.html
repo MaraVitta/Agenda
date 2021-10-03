@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda diaria</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+<!--INICIO-CSS-B-->
+  <link rel="icon" href="imagenes/pic2.jpg">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!--Fin-CSS-B-->
+  <link rel = "preconnect" href = "https://fonts.googleapis.com">
+  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+  <link href = "https: //fonts.googleapis.com/css2? family = Source + Code + Pro: ital, wght @ 1300 & display = swap "rel =" stylesheet ">
+	<link rel="stylesheet" type="text/css" href="tareas.css">	
+  <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main class="container" id="contenedor">
+<header class="row" id="cabecera">	
+<!--Card--B-->
+    <div class="card" id="name">
+      <div class="card-body" id="name_1">
+        <h1><b>Agenda de tareas diarias</b></h1>
+      </div>
+    </div>	
+<!--Fin Card--B-->		 
+</header>	
+  <section class="row pad" id="cuerpo1">
+    <div class="col-lg-9 col-sm-3" id="caja_derecha">
+      <form class="formulario" id="formulario">
+        <input type="number" id="clave" min="1" placeholder="N° de Tarea" class="estilo_form">
+        <select class="estilo_form" id="opciones">
+          <option value="estudio">Estudio</option>
+          <option value="trabajo">Trabajo</option>
+          <option value="deporte">Deporte</option>
+          <option value="comidas">Comidas</option>
+          <option value="mascota">Mascotas</option>
+          <option value="hogar">Hogar</option>
+          <option value="relax">Relax</option>         
+        </select>
+        <textarea id="referencia" placeholder="Agenda aqui tu actividad!" class="estilo_form"></textarea>
+        <input type="datetime-local" class="estilo_form" id="fecha">
+        <input type="button" value="Guardar tarea" class="estilo_form" id="grabar">
+      </form>
+      <div class="datosMostrar" id="mostrarDatos">
+        
+      </div>
+    </div> 
+    <div class="col" id="caja_izquierda" >		     
+      <div class="list-group redes2">  
+        <a href="https://www.linkedin.com/home" class="list-group-item list-group-item-action items_red" target="_BLANK">LinkedIn</a>
+        <a href="https://www.instagram.com/" class="list-group-item list-group-item-action items_red" target="_BLANK">Instagram</a>
+        <a href="https://www.facebook.com/" class="list-group-item list-group-item-action items_red" target="_BLANK">Facebook</a>
+        <a href="https://www.twitter.com/" class="list-group-item list-group-item-action items_red" target="_BLANK">Twitter</a>
+      </div>
+    </div>     							
+	</section>   
+	<footer class="row pad" id="pie">	
+  <h2 class="copiright">Maria&#169;Vita</h2> 
+  <div class="row social_media">   
+  <a class="facebook redes" href="https://www.facebook.com" target="_BLANK"><i class="fab fa-facebook"></i></a>
+  <a class="twitter redes" href="https://www.twitter.com" target="_BLANK"><i class="fab fa-twitter"></i></a>      
+  <a class="instagram redes" href="https://www.instagram.com" target="_BLANK"><i class="fab fa-instagram"></i></a>
+  <a class="mail redes" href="https://www.gmail.com" target="_BLANK"><i class="fas fa-envelope"></i></a>
+  <a class="linkedin redes" href="https://www.linkedin.com" target="_BLANK"><i class="fab fa-linkedin-in"></i></a>
+</div> 
+	</footer>   
+</main>	
+	<!--JS-B-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+<!--Fin-JS-B-->                                                      
+<script type="text/javascript" src="tareas.js"></script>
+</body>
+</html>
